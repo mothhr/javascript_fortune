@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: fantasy;
+    color: #495180;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a9c7e1;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+main {
+    padding: 2rem;
+    border-radius: 50%;
+    box-shadow: 0 3px 8px rgb(140, 177, 236);
+    text-align: center;
+    min-width: 300px;
+    margin: 0 20px;
+    background-color: aliceblue;
+}
+
+#drawButton {
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 12px 30px;
+    background: #475d7d;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgb(140, 177, 236);
+    margin: 50px;
+}
+
+#resultDisplay {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 50px;
+    background: #bad6ee;
+    margin: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    font-size: 0.9rem;
+}
